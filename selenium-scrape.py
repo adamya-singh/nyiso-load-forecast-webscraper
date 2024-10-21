@@ -133,7 +133,7 @@ plt.figure(figsize=(10, 6))
 for region in regions:
     plt.plot(data['Time Stamp'], data[region], label=region)
 
-# Step 6: Customize the plot
+# Customize the plot
 plt.title('NYISO Regional Load Forecast Data')
 plt.xlabel('Time')
 plt.ylabel('Load (MW)')
@@ -141,7 +141,7 @@ plt.xticks(rotation=45)
 plt.legend(loc='upper right')
 plt.tight_layout()
 
-# Step 7: Show the plot
+# Show the plot
 plt.show()
 
 # Close the WebDriver
