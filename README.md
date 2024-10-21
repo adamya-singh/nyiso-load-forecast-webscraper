@@ -12,6 +12,10 @@ This project automates the scraping of daily load forecast data from the officia
 2. Downloaded the data as a CSV file
 3. Processed and visualized the data using pandas and matplotlib
 
+Example Output:
+![example_output](https://github.com/user-attachments/assets/183e1662-63ad-4a8e-a21c-250cee5afa2d)
+
+
 ## How to Run
 1. Install required packages:
    ```bash
